@@ -56,3 +56,11 @@ $route['translate_uri_dashes'] = FALSE;
 
 $route['trainer'] = 'TrainerController/index';
 $route['trainer/store']='TrainerController/store';
+
+
+$route['list']='ListController/list';
+$route['list/add'] = 'ListController/add';
+$route['list/store']='ListController/store1';
+$route['list/edit(:any)']='ListController/edit/$1';
+$route['list/update(:any)']='ListController/update/$1';
+$route['list/delete(:any)']='ListController/delete/$1';

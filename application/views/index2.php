@@ -9,9 +9,11 @@
          <div class="col-md-12">
              <div class="card shadow w-50" >
                  <div class="card-header">
-                     <h5>Trainer Profile</h5>
- 
-<form action="<?= base_url('trainer/store') ?>" method="POST">
+                     <h5>Add Trainer Profile</h5>
+										 
+					 <a href="<?= base_url('list') ?>"  class="btn btn-info btn-sm float-end">Back</a>
+					 <br>
+<form action="<?= base_url('list/store') ?>" method="POST">
   <div class="form-group">
     <label for="exampleInputEmail1">Full Name</label>
     <input type="text" class="form-control" name="name" aria-describedby="emailHelp" placeholder="Enter Full Name"  required>
@@ -38,7 +40,7 @@
 	<small><?php echo form_error('cv'); ?></small>
 </div>
  <br>
-  <button type="submit" class="btn btn-primary">SignUp</button>
+  <button type="submit" class="btn btn-primary">Add</button>
   
   </form>
 </div>
