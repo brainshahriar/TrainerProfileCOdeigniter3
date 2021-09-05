@@ -18,7 +18,7 @@ class ListController extends CI_Controller {
 	{
 
 	   $this->load->view('frontend/header');
-	   $this->load->view('index2');
+	   //$this->load->view('index2');
 	   $this->load->view('frontend/footer');
 	}
 
